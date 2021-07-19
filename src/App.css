@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 :root {
   --primary-white: #fff;
@@ -64,8 +65,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url("https://media.istockphoto.com/photos/isolated-high-tech-open-laptop-with-abstract-vibrant-color-screen-on-picture-id1248263998?b=1&k=6&m=1248263998&s=170667a&w=0&h=90I4O7AOqjr78Nr0oq8Bc-eAXCTKn6TD0d_XtiGTPDg=")
-    no-repeat;
+  background: url("./header.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -140,4 +140,32 @@ nav ul li {
   .particles-canvas {
     display: none;
   }
+}
+
+/* Card */
+.avatar {
+  border-radius: 50%;
+  height: "10rem";
+  width: 100%;
+}
+.card {
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  margin-top: 4rem;
+  border: none !important;
+  font-family: "Lato", sans-serif;
+}
+
+.card h5 {
+  align-items: left;
+  text-align: left;
+  font-size: 1.5rem !important;
+  font-weight: 700;
+}
+
+.card p {
+  align-items: left;
+  text-align: left;
+  line-height: 1.5;
 }
