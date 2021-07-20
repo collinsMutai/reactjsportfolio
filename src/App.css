@@ -148,7 +148,7 @@ nav ul li {
   height: "10rem";
   width: 100%;
 }
-.card {
+.about-card {
   align-items: center;
   text-align: center;
   padding: 3rem;
@@ -157,15 +157,21 @@ nav ul li {
   font-family: "Lato", sans-serif;
 }
 
-.card h5 {
+.about-card h5 {
   align-items: left;
   text-align: left;
   font-size: 1.5rem !important;
   font-weight: 700;
 }
 
-.card p {
+.about-card p {
   align-items: left;
   text-align: left;
   line-height: 1.5;
+}
+
+.services .card {
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
 }
